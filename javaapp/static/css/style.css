@@ -1,7 +1,9 @@
+
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
-  background-color: #ffffff;
+ background-color: black;
 }
 
 .layout_padding {
@@ -54,25 +56,12 @@ body {
   left: 50%;
   width: 55px;
   height: 5px;
-  background-color: #ff2953;
+  background-color: blue;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 /*header section*/
-.hero_area {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 .sub_page .hero_area {
   height: auto;
@@ -156,10 +145,6 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
-  background-size: 22px;
-  background-repeat: no-repeat;
-  background-position-y: 7px;
   width: 35px;
   height: 35px;
   padding: 0;
@@ -195,7 +180,6 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/menu.png);
   background-size: 55px;
 }
 
@@ -274,8 +258,7 @@ a:focus {
 
 .slider_section #carouselExampleIndicators .carousel-indicators {
   position: unset;
-  margin: 0;
-  margin-top: 45px;
+  margin: 45px 0 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -290,16 +273,8 @@ a:focus {
   opacity: 1;
 }
 
-.slider_section #carouselExampleIndicators .carousel-indicators li.active {
-  border: 4px solid #ffffff;
-}
 
-.us_section {
-  background-image: url(../images/us-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  color: #ffffff;
-}
+
 
 .us_section .us_container {
   padding-top: 25px;
@@ -341,13 +316,6 @@ a:focus {
   font-weight: bold;
 }
 
-.heathy_section {
-  background-image: url(../images/healthy-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  color: #ffffff;
-  text-align: center;
-}
 
 .heathy_section h2 {
   font-weight: bold;
@@ -386,12 +354,6 @@ a:focus {
   color: #000000;
 }
 
-.trainer_section {
-  background-image: url(../images/trainer-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  color: #ffffff;
-}
 
 .trainer_section .box {
   margin-top: 55px;
@@ -560,34 +522,24 @@ a:focus {
   position: relative;
 }
 
-.info_items .item .img-box.box-1 {
-  background-image: url(../images/location-white.png);
-}
-
-.info_items .item .img-box.box-2 {
-  background-image: url(../images/telephone-white.png);
-}
-
-.info_items .item .img-box.box-3 {
-  background-image: url(../images/envelope-white.png);
-}
 
 /* footer section*/
 .footer_section {
-  background-color: #fbfdfd;
+  background-color: black;
   padding: 20px;
   font-weight: 500;
 }
 
 .footer_section p {
-  color: #292929;
+  color: wheat;
   margin: 0;
   text-align: center;
 }
 
 .footer_section a {
-  color: #292929;
+  color: wheat;
 }
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
